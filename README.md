@@ -23,3 +23,14 @@ Multi-stage builds are used in Docker images to optimize image size and composit
 7. **Reproducibility:** Multi-stage builds help ensure consistency across different environments by using a defined set of steps for building images.
 
 In essence, multi-stage builds enhance Docker image development, making images smaller, more secure, efficient, and maintainable.
+
+# What are distroless images ??
+Distroless images are like super lightweight containers. Imagine a container is like a box for running apps. Regular containers come with a lot of extra stuff, like a mini computer inside. But distroless containers are super tiny. They only have exactly what your app needs to work, nothing extra.
+
+The main idea behind distroless is to keep bad guys away. By having only the essential things, it's harder for bad guys to break in. It's like having a secret door that only your app knows about.
+
+Because distroless containers are so small, they're really fast to start and use less computer memory. They're like race cars for apps.
+
+But remember, while distroless is great for safety and speed, it's a bit trickier to set up and fix if something goes wrong. Google made a tool called Distroless to help make these tiny containers, which is really handy.
+
+So, distroless is like a superhero for your apps – small, fast, and super strong against bad guys!
